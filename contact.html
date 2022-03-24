@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        body{
+            background-color: rgb(166, 228, 247);
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="../care.png" alt="">
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./show.html">Show</a></li>
+            </ul>
+            <div class="searchBar">
+
+                <input type="search" placeholder="search here..." size="20">
+            </div>
+        </div>
+        <div class="button">
+            <button class="login" ><a href="./login.html">Login</a></button>
+            <button class="Registeration"><a href="./contact.html">Registeration</a></button>
+        </div>
+        
+    </header>
+    <div class="Employeeform">
+        <h1>Employee Form</h1>
+
+    </div>
+     <div class="form">
+         <form action="post" class="forms">
+             <div class="namefirst same">
+
+                 <label for="">First Name</label>
+                 <input type="text" placeholder="Enter your First Number">
+             </div>
+            <div class="lastname same">
+
+                <label for="">Last Name</label>
+                <input type="text" placeholder="Enter your First Number">
+            </div>
+            
+            <div class="email same">
+
+                <label for="">Email</label>
+                <input type="email" placeholder="Enter your First Number">
+            </div>
+            <div class="number same">
+
+                <label for="">Contact Number</label>
+                <input type="number" placeholder="Enter your First Number">
+            </div>
+            <div class="dateofbirst same">
+
+                <label for="">Date Of Birth</label>
+                <input type="date" placeholder="Enter your First Number">
+            </div>
+
+            <div class="gender same">
+
+                <label for="">Gender</label>
+                <div class="gender">
+                   <input type="radio" name="gender" value="male"> <label for="">Male</label>
+                   <input type="radio" name="gender" value="female"><label for="">Female</label>
+                </div>
+            </div>
+            <button type="submit" class="submit">Submit</button>
+         </form>
+     </div>
+</body>
+</html>
